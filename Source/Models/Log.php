@@ -22,7 +22,7 @@ class Log {
 	private $open;
 
 	//_________________________________________________________________________________________
-	public function __construct( $message, $type = null, $code = null ) {
+	public function __construct( $message, $type = "undefined", $code = 0 ) {
 
 		$this->message = $message;
 		$this->type = $type;

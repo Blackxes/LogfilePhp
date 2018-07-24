@@ -16,10 +16,9 @@ namespace Logfile;
 use Logfile\Source\Models;
 
 const LOGFILE_ROOT = __DIR__;
-const DS = DIRECTORY_SEPARATOR;
 
-require_once ( __DIR__ . DS . "Configuration.php" );
-require_once ( __DIR__ . DS . "Source". DS . "Models" . DS . "Log.php" );
+require_once ( LOGFILE_ROOT . "/Configuration.php" );
+require_once ( LOGFILE_ROOT . "/Models/Log.php" );
 
 //_____________________________________________________________________________________________
 class Logfile {
